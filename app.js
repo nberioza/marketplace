@@ -13,7 +13,7 @@ const flash = require('connect-flash')
 
 const csrfProtection = csrf()
 const MONGODB_URI =
-  'mongodb+srv://netanel:pw3karalsM@cluster0-fgpg1.mongodb.net/test?retryWrites=true';
+  "mongodb URI"
 
 const app = express();
 const store = new MongoDBStore({
